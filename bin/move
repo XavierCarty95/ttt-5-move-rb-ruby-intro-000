@@ -10,7 +10,5 @@ input = gets.strip
 
 index = input_to_index(input)
 
+move(board , index , character = "X")
 
-def move(board , index , character = "X")
-  board[index] = character
-end
